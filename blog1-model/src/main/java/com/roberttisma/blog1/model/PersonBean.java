@@ -5,9 +5,7 @@ import java.io.Serializable;
 /**
  * Considered PRODUCTION CODE and cannot be modified
  */
-public class PersonBean implements Person, Serializable {
-
-  private static final long serialVersionUID = 1499699879L;
+public class PersonBean implements Person {
 
   private Integer id;
   private String firstName;
